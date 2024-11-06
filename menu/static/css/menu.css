@@ -1,0 +1,35 @@
+.language-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.language-menu.open {
+    display: block;
+}
+
+.messages {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+.messages li {
+    padding: 5px;
+    background-color: #d3ffd3;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.language-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.language-button:hover {
+    background-color: #0056b3;
+}
